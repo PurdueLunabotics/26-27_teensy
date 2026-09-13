@@ -1,4 +1,3 @@
-# PnH-KiCAD-template
+# Teensy Board
 
-Please update this readme.
-Please make a KiCAD project, then update the PROJECT_NAME at the top of the pcb_image.yaml (inside the .github/workflows folder)
+The breakout board for the teensy. Connects all the various sensors into one contained plac

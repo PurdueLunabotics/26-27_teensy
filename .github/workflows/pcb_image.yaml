@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  PROJECT_NAME: onboarding-2627-V2
+  PROJECT_NAME: teensy_2026
 
 jobs:
   render-image:
