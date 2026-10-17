@@ -366,12 +366,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -382,17 +376,6 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
 			(property "Reference" "J"
 				(at 0 5.08 0)
 				(show_name no)
@@ -403,8 +386,6 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
 			(property "Value" "Conn_01x04_Pin"
 				(at 0 -7.62 0)
 				(show_name no)
@@ -427,17 +408,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -448,7 +418,6 @@
 					)
 				)
 			)
-			(property "ki_keywords" "test point tp"
 			(property "Description" "Generic connector, single row, 01x04, script generated"
 				(at 0 0 0)
 				(show_name no)
@@ -460,7 +429,6 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
 			(property "ki_locked" ""
 				(at 0 0 0)
 				(show_name no)
@@ -482,12 +450,6 @@
 					)
 				)
 			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(show_name no)
@@ -592,12 +554,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 3.81)
@@ -864,8 +820,6 @@
 		)
 		(symbol "GND_1"
 			(power global)
-			(pin_names
-				(offset 0)
 			(pin_numbers
 				(hide yes)
 			)
@@ -961,8 +915,6 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
 					(name ""
 						(effects
 							(font
@@ -2454,7 +2406,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 87.63) (xy 133.35 87.63)
 			(xy 123.19 102.87) (xy 133.35 102.87)
 		)
 		(stroke
@@ -2515,7 +2466,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 147.32) (xy 92.71 147.32)
 			(xy 31.75 171.45) (xy 38.1 171.45)
 		)
 		(stroke
@@ -2556,14 +2506,12 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 97.79) (xy 133.35 97.79)
 			(xy 31.75 148.59) (xy 34.29 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "677d53c1-7403-4012-8260-a8a605963307")
 		(uuid "717950eb-e9a3-4433-a44f-f1353c94b34d")
 	)
 	(wire
@@ -2608,14 +2556,12 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 170.18) (xy 80.01 170.18)
 			(xy 124.46 110.49) (xy 133.35 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95406096-369c-4f70-8c42-c04e6cefae3c")
 		(uuid "927cfe47-0938-47ff-88b7-64b4152fb2fe")
 	)
 	(wire
@@ -2720,14 +2666,12 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 172.72) (xy 82.55 172.72)
 			(xy 123.19 107.95) (xy 133.35 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4ec3da6-025d-4c6d-9d30-09b5ddc00f99")
 		(uuid "bf94b56a-0650-4bc8-a6c1-29e9346d558c")
 	)
 	(wire
@@ -2802,14 +2746,12 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 172.72) (xy 80.01 172.72)
 			(xy 31.75 168.91) (xy 38.1 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f38dd1ae-27d4-477e-8267-e0fa1ed7474e")
 		(uuid "f1988d46-a983-491d-92d5-9edbc585bc0e")
 	)
 	(wire
@@ -2952,8 +2894,6 @@
 		)
 		(uuid "9af9fdf6-e2f9-4577-b0f6-f7bd307d265f")
 	)
-	(label "LinAct RX"
-		(at 93.98 170.18 0)
 	(label "LA1_HE1_in"
 		(at 34.29 148.59 0)
 		(effects
@@ -2962,7 +2902,6 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a6f1ce1d-6774-4e59-a27c-ee17f5074be7")
 		(uuid "a5d9db96-8ea1-41ba-bcf6-5fc472b7c021")
 	)
 	(label "LA1_HE2_in"
@@ -3034,6 +2973,85 @@
 			(justify left bottom)
 		)
 		(uuid "db2a024a-62f8-4e35-b680-d8e15140c29a")
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 53.34 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1019fdff-aa0c-499c-aa54-c93d0c4210f2")
+		(property "Reference" "#PWR040"
+			(at 53.34 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 53.34 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 53.34 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c82e990-93f8-40c7-b987-3b71f36b77d3")
+		)
+		(instances
+			(project "teensy_2026"
+				(path "/b062e967-6a20-42f7-b627-29a6c4be294a"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_name "+5V_1")
@@ -5458,6 +5476,84 @@
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 53.34 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f91d54e0-dd0f-4db4-87f1-9092851b933b")
+		(property "Reference" "#PWR015"
+			(at 53.34 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 53.34 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 53.34 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84bf593e-077b-4db1-9227-6a2212e55f91")
+		)
+		(instances
+			(project "teensy_2026"
+				(path "/b062e967-6a20-42f7-b627-29a6c4be294a"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
