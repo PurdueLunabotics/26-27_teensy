@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 1.0,
+          "height": 1.508,
+          "width": 1.508
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 1.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -519,7 +519,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -527,7 +532,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "teensy_2026.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -662,7 +667,7 @@
         "uuid": "b062e967-6a20-42f7-b627-29a6c4be294a"
       }
     ],
-    "used_designators": "TP1-2,#FLG2-4,J4-13,#PWR3,#PWR18-39",
+    "used_designators": "TP1-2,#FLG2-4,J4-13,#PWR3,#PWR9-12,#PWR15,#PWR18-40,Re1",
     "variants": []
   },
   "sheets": [
