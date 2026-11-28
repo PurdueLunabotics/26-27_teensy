@@ -2094,6 +2094,17 @@
 			(uuid "5bd82749-d17b-4750-9453-0b396b8c7286")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D Models/raspberry pi pico with contacts.step"
+			(offset
+				(xyz 0 -1.25 4.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
 		(layer "F.Cu")
